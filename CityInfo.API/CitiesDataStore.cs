@@ -6,7 +6,9 @@ namespace CityInfo.API
     {
         public List<CityDto> Cities { get; set; }
 
-        public static CitiesDataStore Current { get; } = new CitiesDataStore();
+        // Original use
+        //public static CitiesDataStore Current { get; } = new CitiesDataStore();
+        // it change for Injection dependency
 
         public CitiesDataStore()
         {
