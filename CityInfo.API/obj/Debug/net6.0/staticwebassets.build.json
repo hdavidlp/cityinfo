@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "MNxdU726kbS2GEMM1U83h9Fi0G+KpyFDVMLRDezIZ9w=",
+  "Hash": "tgAXmCZ2urszhXnD2l+dk2yWW5GfWbgmA9lNlnqeyn0=",
   "Source": "CityInfo.API",
   "BasePath": "_content/CityInfo.API",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Hector Lopez P\\source\\repos\\CityInfo\\CityInfo.Data\\CityInfo.Data.csproj",
+      "Version": 2,
+      "Source": "CityInfo.Data",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }
