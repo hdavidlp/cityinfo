@@ -1,4 +1,4 @@
-﻿namespace CityInfo.API.Services
+﻿namespace CityInfo.Data.Services
 {
     public interface IMailService
     {

@@ -1,4 +1,4 @@
-﻿namespace CityInfo.API.Models
+﻿namespace CityInfo.Data.Models
 {
     public class CityDto
     {

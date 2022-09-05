@@ -1,7 +1,7 @@
 ﻿using CityInfo.Data.Entities;
 using System.Collections;
 
-namespace CityInfo.API.Services
+namespace CityInfo.Data.Services
 {
     public interface ICityInfoRepository
     {
@@ -13,7 +13,13 @@ namespace CityInfo.API.Services
 
         Task<IEnumerable<PointOfInterest>> GetPointsOfInterestForCityAsinc(int cityId);
 
-        Task<PointOfInterest?> GetPointOfInterestForCityAsinc(int cityId, int pointOfInterestId);
+        Task<PointOfInterest?>GetPointOfInterestForCityAsinc(int cityId, int pointOfInterestId);
+
+        Task AddPointOfInterestForCityAsync(int cityId, PointOfInterest pointOfInterest);
+
+        void DeletePointOfInterest(PointOfInterest pointOfInterest);
+
+        Task<bool> SaveChangesAsync();
 
     }
 }

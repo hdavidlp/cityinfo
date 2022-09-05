@@ -2,7 +2,7 @@
 using CityInfo.Data.Entities;
 
 
-namespace CityInfo.API.Profiles
+namespace CityInfo.Data.Profiles
 {
     public class CityProfile: Profile
     {

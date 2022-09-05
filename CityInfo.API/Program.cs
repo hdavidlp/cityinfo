@@ -1,5 +1,5 @@
 using CityInfo.API;
-using CityInfo.API.Services;
+using CityInfo.Data.Services;
 using CityInfo.Data.DbContexts;
 using Microsoft.AspNetCore.Mvc.Localization;
 using Microsoft.AspNetCore.StaticFiles;

@@ -51,3 +51,5 @@ C:\Users\Hector Lopez P\source\repos\CityInfo\CityInfo.Data\obj\Debug\net6.0\ref
 C:\Users\Hector Lopez P\source\repos\CityInfo\CityInfo.Data\obj\Debug\net6.0\CityInfo.Data.pdb
 C:\Users\Hector Lopez P\source\repos\CityInfo\CityInfo.Data\obj\Debug\net6.0\CityInfo.Data.genruntimeconfig.cache
 C:\Users\Hector Lopez P\source\repos\CityInfo\CityInfo.Data\obj\Debug\net6.0\ref\CityInfo.Data.dll
+C:\Users\Hector Lopez P\source\repos\CityInfo\CityInfo.Data\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Hector Lopez P\source\repos\CityInfo\CityInfo.Data\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1001,6 +1001,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "microsoft.entityframeworkcore": "6.0.0"
@@ -2291,7 +2292,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "CityInfo.Data >= 1.0.0",
       "Microsoft.AspNetCore.JsonPatch >= 6.0.8",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.8",
@@ -2345,10 +2345,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[8.1.1, )"
-          },
           "Microsoft.AspNetCore.JsonPatch": {
             "target": "Package",
             "version": "[6.0.8, )"

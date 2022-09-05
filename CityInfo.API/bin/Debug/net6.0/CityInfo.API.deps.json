@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "CityInfo.API/1.0.0": {
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "CityInfo.Data": "1.0.0",
           "Microsoft.AspNetCore.JsonPatch": "6.0.8",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.8",
@@ -572,6 +571,7 @@
       },
       "CityInfo.Data/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "Microsoft.EntityFrameworkCore": "6.0.0"
