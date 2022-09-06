@@ -2296,7 +2296,6 @@
       "Microsoft.AspNetCore.JsonPatch >= 6.0.8",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.0",
       "Serilog.AspNetCore >= 6.0.1",
       "Serilog.Sinks.File >= 5.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2356,10 +2355,6 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[6.0.0, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[6.0.0, )"
           },
